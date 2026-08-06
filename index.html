@@ -4,12 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>按鈕頁面</title>
+  <style>
+    button:not(.rainbow-button) {
+      display: none;
+    }
+
+    .red { background-color: #ef4444; }
+    .orange { background-color: #f97316; }
+    .yellow { background-color: #eab308; color: #111827; }
+    .green { background-color: #22c55e; }
+    .blue { background-color: #3b82f6; }
+    .indigo { background-color: #6366f1; }
+    .violet { background-color: #8b5cf6; }
+  </style>
 </head>
 <body>
-  <button type="button">按鈕1</button>
-  <button type="button">按鈕2</button>
-  <button type="button">按鈕3</button>
-  <button type="button">按鈕4</button>
-  <button type="button">按鈕5</button>
+  <button class="rainbow-button red" type="button">按鈕1</button>
+  <button class="rainbow-button orange" type="button">按鈕2</button>
+  <button class="rainbow-button yellow" type="button">按鈕3</button>
+  <button class="rainbow-button green" type="button">按鈕4</button>
+  <button class="rainbow-button blue" type="button">按鈕5</button>
+  <button class="rainbow-button indigo" type="button">按鈕7</button>
+  <button class="rainbow-button violet" type="button">按鈕8</button>
 </body>
 </html>
